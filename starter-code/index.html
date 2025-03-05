@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<body>
+
+
+  <main>
+      <div class="header">
+        <h1>devfinder</h1>
+        <button class="light-dark-btn">LIGHT</button>
+      </div>
+
+      <div class="search-container">
+        <div class="search">
+          <img src="./assets/icon-search.svg" alt="search icon">
+          <input type="text" placeholder="Search GitHub username">
+        </div>
+
+        <div class="btn-container">
+          <p class="search-error hidden">No results</p>
+          <button class="search-btn">Search</button> 
+        </div>
+      </div>
+
+      <div class="user-container">
+        <img class ="user-avatar-desktop" alt="avatar">
+        
+        <div class="user">
+          <div class="user-info">
+            <img class ="user-avatar-mobile" alt="avatar">
+            <div> 
+              <h2 class="user-fullname"></h2> 
+              <a href="" class="user-username"></a>
+              <p class="user-joined"></p>
+            </div>
+          </div>
+
+          <p class="user-bio"></p>
+
+          <div class="user-stats">
+            <div>
+              <h3 class="subheading">Repos</h3>
+              <p class="user-repo-number"></p>
+            </div>
+            <div>
+              <h3 class="subheading">Followers</h3>
+              <p class="user-followers-number"></p>
+            </div>
+            <div>
+              <h3 class="subheading">Following</h3>
+              <p class="user-following-number"></p>
+            </div>
+          </div>
+
+          <div class="user-contact">
+            <div>
+              <img class="icon" src="./assets/icon-location.svg" alt="location icon">
+              <a href="#" class="user-location"></a>
+            </div>
+            <div>
+              <img class="icon" src="./assets/icon-website.svg" alt="website icon">
+              <a href="#" class="user-website"></a>
+            </div>
+            <div>
+              <img class="icon" src="./assets/icon-twitter.svg" alt="twitter icon">
+              <a href="#" class="user-twitter"></a>
+            </div>
+            <div>
+              <img class="icon" src="./assets/icon-company.svg" alt="company icon">
+              <a href="#" class="user-company"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main> 
+  <script src="scripts.js"></script>
+</body>
+</html>
