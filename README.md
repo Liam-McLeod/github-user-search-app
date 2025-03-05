@@ -13,7 +13,7 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 
 ### Design
 
-![Design preview for the Github user search app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Github user search app coding challenge](./preview.jpg)
 
 ### Links
 
